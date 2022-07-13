@@ -3,6 +3,7 @@ import './productview.css'
 
 const Access = ({product}) => {
   
+    // eslint-disable-next-line
     const [show, setShow] = useState(false);
     
     const handleClose = () => setShow(false);
