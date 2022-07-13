@@ -1,0 +1,11 @@
+td ,th{
+    font-size: 20px;
+    padding: 1px;
+}
+#prise::before{
+    content: "₹";
+    font-size: 1rem;
+    position: relative;
+    top: -0.3rem;
+    padding-right: 0.1rem;
+}
